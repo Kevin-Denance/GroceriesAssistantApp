@@ -1,4 +1,4 @@
-🛒 Smart Grocery Sentinel
+##🛒 Smart Grocery Sentinel
 Full-Stack AI Pipeline for Real-Time Grocery Deal Discovery
 Smart Grocery Sentinel is an end-to-end data engineering solution designed to fight food waste and grocery inflation in Toronto. It automates the extraction of "near-expiry" inventory from the Flashfood API, enriches the data using Local Edge AI (Ollama), and provides a natural language interface for users via Discord and Google Gemini.
 
