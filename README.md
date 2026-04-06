@@ -33,6 +33,8 @@ Serverless Execution: The Python scraper is hosted on GitHub and triggered daily
 Multi-Store Coverage: Aggregates live data across multiple Toronto-based store locations simultaneously.
 
 ## 2. Local AI Batch Enrichment (The "Transformer" Layer)
+
+### 2.1 First Approach, using Ollama LLM
 Instead of relying on expensive cloud APIs for data cleaning, this project implements a Local-First ETL approach:
 
 Windowed Processing: A dedicated Python script identifies records in the Supabase "Master Table" that lack categorization.
